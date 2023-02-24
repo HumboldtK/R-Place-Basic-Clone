@@ -4,8 +4,6 @@ Supports real-time updates for collaboration with other users on the site.
 
 My Live Website running this code: https://pixelplayground.io/
 
-Heavily modified version of https://github.com/tinybirdco/r-place
-
 #Available Features
 - Real-time pixel changing with other users on the site
 - Toggleable sound effects 
@@ -15,6 +13,8 @@ Heavily modified version of https://github.com/tinybirdco/r-place
 
 
 This uses panzoom.js from https://github.com/anvaka/panzoom for zoom/pan function.
+
+Heavily modified version of https://github.com/tinybirdco/r-place
 
 To clone the repository:
 `https://github.com/HumboldtK/R-Place-Basic-Clone.git`
