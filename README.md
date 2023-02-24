@@ -2,6 +2,8 @@
 A basic r/place clone using plain javascript, php and MySQL for the backend. 
 Supports real-time updates for collaboration with other users on the site. 
 
+My Live Website running this code: https://pixelplayground.io/
+
 Heavily modified version of https://github.com/tinybirdco/r-place
 
 #Available Features
@@ -13,8 +15,6 @@ Heavily modified version of https://github.com/tinybirdco/r-place
 
 
 This uses panzoom.js from https://github.com/anvaka/panzoom for zoom/pan function.
-
-Live Site: https://pixelplayground.io/
 
 To clone the repository:
 `https://github.com/HumboldtK/R-Place-Basic-Clone.git`
