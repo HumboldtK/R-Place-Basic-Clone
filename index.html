@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HumboldtK RPlace Clone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pixel Playground is a collaborative platform where you can edit a single pixel on the canvas with other people in real-time.">
+    <meta name="keywords" content="pixel canvas, r/place, pixel, collaboration">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+	<h2>HumboldtK RPlace Clone</h2>
+        <div class="headercontrols">
+          <div id="timer"></div> 
+        <input type="color" id="colorpicker">
+        <label id="colorlabel" for="colorpicker">&lt;--- Choose a color!</label>
+      </div>
+      <nav class="main-navigation">
+        <label class="toggle">
+          <input class="toggle-checkbox" type="checkbox" checked>
+          <div class="toggle-switch"></div>
+          <span class="toggle-label">Sound</span>
+          </label>
+      </nav>
+    </header>
+    <main>
+      <div class="board">
+        <div id="panzoom">
+          <canvas id="grid" width="1500px" height="1000px" oncontextmenu="return false;">Your browser does not support this...</canvas>
+        </div>
+      </div>
+    </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="panzoom.js" type="module"></script>
+  <<script src="scripts.js" type="module"></script>
+  <script src="colorcookie.js" type="module"></script>
+  </body>
+</html>
+
+
+
