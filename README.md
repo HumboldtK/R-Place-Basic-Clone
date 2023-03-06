@@ -19,7 +19,7 @@ Heavily modified version of https://github.com/tinybirdco/r-place
 # How-To Use
 
 To clone the repository:
-`https://github.com/HumboldtK/R-Place-Basic-Clone.git`
+`git clone https://github.com/HumboldtK/R-Place-Basic-Clone.git`
 
 To start working with this project you must have a MySQL server either locally or on a webhost.
 
