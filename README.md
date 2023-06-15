@@ -3,9 +3,10 @@ A basic r/place clone using plain javascript, php and MySQL for the backend.
 Supports real-time updates for collaboration with other users on the site. 
 
 My Live Website running this code: https://pixelplayground.io/ (Note the live website has been vastly updated & improved further to use websockets and a nodejs server for backend)
+
 Original version running the code from this repository can still be viewed at : https://pixelplayground.io/PixelPlayground-V1/
 
-#Available Features
+# Available Features
 - Real-time pixel changing with other users on the site
 - Toggleable sound effects 
 - scriptswithcooldown.js Optional alternative script file for adding a 10 second cooldown. Cooldown variable can be changed at line 145. Value is in miliseconds. 
